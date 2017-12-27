@@ -3,38 +3,90 @@
 <head>
 
 <title>ExploerL的个人主页</title>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
 </head>
 <body background="photo/background.jpg"
 <h1><p align="center">个人主页</p></h1>
 <h3><p align="center">WELCOME</p></h3>
-<table border="3" width="100%" cellpadding="10">
+
+<div id="TabbedPanels1" class="TabbedPanels">
+  <ul class="TabbedPanelsTabGroup">
+    <li class="TabbedPanelsTab" tabindex="0">学习</li>
+    <li class="TabbedPanelsTab" tabindex="0">工具</li>
+    <li class="TabbedPanelsTab" tabindex="0">视频</li>
+    <li class="TabbedPanelsTab" tabindex="0">社交</li>
+  </ul>
+    <div class="TabbedPanelsContentGroup">
+<div class="TabbedPanelsContent">
+<table width="100%" border="0">
   <tr>
-
-<td width="25%" valign="top">
-<p align="center"><a href="http://www.jxau.edu.cn"target="_blank">江西农业大学</a></p>
-<p align="center"><a href="http://www.qinxue.com/"target="_blank">勤学网</a></p>
-<p align="center"><a href="http://www.ypppt.com/"target="_blank">PPT模板</a></p>
-<p align="center"><a href="http://netclass.joineast.com/"target="_blank">聚英网校</a></p>
-</td>
-
-<td width="25%" valign="top">
-<p align="center"><a href="http://www.baidu.com"target="_blank">百度搜索</a></p>
-<p align="center"><a href="http://www.58pic.com/"target="_blank">千图网</a></p>
-<p align="center"><a href="https://dida365.com/#q/all/tasks"target="_blank">滴答清单</a></p>
-</td>
-
-<td width="25%" valign="top">
-<p align="center"><a href="https://www.douyu.com/"target="_blank">斗鱼</a></p>
-<p align="center"><a href="https://www.bilibili.com/"target="_blank">billbill</a></p>
-</td>
-
-<td width="25%" valign="top">
-<p align="center"><a href="https://weibo.com/u/5391456754/home?wvr=5"target="_blank">新浪微博</a></p>
-<p align="center"><a href="https://tieba.baidu.com/index.html?traceid="target="_blank">百度贴吧</a></p>
-</td>
-
-</tr>
+    <td><p align="center"><a href="http://www.jxau.edu.cn"target="_blank">江西农业大学</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="http://www.qinxue.com/"target="_blank">勤学网</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="http://www.ypppt.com/"target="_blank">PPT模板</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="http://netclass.joineast.com/"target="_blank">聚英网校</a></p></td>
+  </tr>
 </table>
+</div>
+
+    <div class="TabbedPanelsContent">
+    <table width="100%" border="0">
+  <tr>
+    <td><p align="center"><a href="http://www.baidu.com"target="_blank">百度搜索</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="http://www.58pic.com/"target="_blank">千图网</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="https://dida365.com/#q/all/tasks"target="_blank">滴答清单</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"></p></td>
+  </tr>
+</table>
+</div>
+
+    <div class="TabbedPanelsContent">
+        <table width="100%" border="0">
+  <tr>
+    <td><p align="center"><a href="https://www.douyu.com/"target="_blank">斗鱼</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="https://www.bilibili.com/"target="_blank">billbill</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"></p></td>
+  </tr>
+</table>
+</div>
+    <div class="TabbedPanelsContent">
+            <table width="100%" border="0">
+  <tr>
+    <td><p align="center"><a href="https://tieba.baidu.com/index.html?traceid="target="_blank">百度贴吧</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><a href="https://weibo.com/u/5391456754/home?wvr=5"target="_blank">新浪微博</a></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"></p></td>
+  </tr>
+</table>
+    </div>
+  </div>
+</div>
+
 <h4><p align="center">下载链接（测试）</p></h4>
 <table width="613" border="1">
   <tr>
@@ -49,5 +101,8 @@
 </table>
 
 <embed src="music/忆江南.mp3" width="1" height="1" align="RIGHT"></embed>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+</script>
 </body>
 </html>
